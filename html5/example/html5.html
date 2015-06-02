@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML5 Layout</title>
+    <style>
+        header, nav, main, section, article, aside, footer,
+        h1, h2, h3, h4, h5, p {
+            margin: 0.5%;
+            padding: 1%;
+        }
+        header, footer {
+            text-align: center;
+        }
+        article, header, footer {
+            background-color: #eeeeee;
+        }
+        main, aside {
+            /*background-color: gray;*/
+        }
+        section {
+            /*background-color: lightgray;*/
+        }
+        nav {
+            display: inline;
+        }
+        main {
+            float: left;
+            width: 63%;
+        }
+        aside {
+            float: right;
+            width: 31%;
+        }
+        footer {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Header
+        <nav>Nav1 Nav2 Nav3</nav>
+    </header>
+    <main>
+        <h1>Main</h1>
+        <section>
+            <h2>Section1 Header</h2>
+            <article>
+                <h3>Article1 Header</h3>
+                <p>Article1 Content</p>
+            </article>
+            <article>
+                <h3>Article2 Header</h3>
+                <p>Article2 Content <time>10:00 AM</time></p>
+                <figure>
+                    <mark>Figure</mark>
+                    <figcaption>Figure Caption</figcaption>
+                </figure>
+            </article>
+            <!-- <details><summary>Not Details</summary>Closed Details</details>
+            <details open>Open Details</details> -->
+        </section>
+        <section>
+            <h2>Section2 Header</h2>
+            <article>
+                <h3>Article1 Header</h3>
+                <p>Article1 Content</p>
+            </article>
+            <article>
+                <h3>Article2 Header</h3>
+                <p>Article2 Content <time>10:00 AM</time></p>
+                <figure>
+                    <mark>Figure</mark>
+                    <figcaption>Figure Caption</figcaption>
+                </figure>
+            </article>
+            <!-- <details><summary>Not Details</summary>Closed Details</details>
+            <details open>Open Details</details> -->
+        </section>
+    </main>
+    <aside>
+        <h2>Aside</h2>
+        <section>
+            <h3>Aside Section1 Header</h3>
+            <article>
+                <h4>Aside Article1 Header</h4>
+                <p>Aside Article1 Content</p>
+            </article>
+            <article>
+                <h4>Aside Article2 Header</h4>
+                <p>Aside Article2 Content</p>
+            </article>
+        </section>
+        <section>
+            <h3>Aside Section2 Header</h3>
+            <article>
+                <h4>Aside Article1 Header</h4>
+                <p>Aside Article1 Content</p>
+            </article>
+        </section>
+    </aside>
+    <footer>Footer</footer>
+</body>
+</html>
